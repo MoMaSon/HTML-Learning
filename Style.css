@@ -1,0 +1,52 @@
+body {
+	background-color: powderblue;
+}
+
+div {
+	background-image: url('google.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-size: cover;
+}
+
+table#t01, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+table#t01{
+	border-spacing: 5px;
+}
+
+table#t01 tr:nth-child(even) {
+	background-color: #fff
+}
+
+table#t01 tr:nth-child(odd) {
+	background-color: #eee
+}
+
+ul#l01 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+li#li01 {
+	float: left;
+}
+li#li01 a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li#li01 a:hover{
+	background-color: #111111;
+}

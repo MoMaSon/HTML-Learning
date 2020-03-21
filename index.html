@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="description" cotent="This is an awesome website">
+		<title>Isaac's Website</title>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+
+	<body style="background-color: #F5F5DC;">
+		<header>
+			<nav>
+
+			</nav>
+			<h1>Isaac's Website</h2>
+			<p title="I'm a tootip">This is a paragraph.</p>
+		</header>
+		
+		<main>
+			<h2 id="home">Basics:</h3>
+			<hr/>
+			<p><big>This</big> is <small>a</small> <b><i>paragraph.</i></b></p>
+			<p>H<sub>2</sub>O</p>
+			<p>10<sup>2</sup></p>
+			<!-- 
+				Comment code
+				or multiple lines like this
+			-->
+			<br/>
+
+			<h2 style="color:green;">Style and Colors:</h3>
+			<p style="color: blue;"> Color blue </p>
+			<p style="color: red;background-color: yellow;">Color Red, Background Color Yellow</p> 
+
+			<article>
+				<section>
+					<aside>
+					</aside>
+				</section>
+				<section>
+					
+				</section>
+			</article>
+
+			<a href="https://www.google.com" target="_blank"><p><img width="100" src="google.png" alt="A testing image" /></p></a>
+			<a href="page2.html"> <p>Page2</p> </a>
+
+			<img width="300" src="https://thumbs.dreamstime.com/z/tv-test-image-card-rainbow-multi-color-bars-geometric-signals-retro-hardware-s-minimal-pop-art-print-suitable-89603635.jpg" alt="A testing image" />
+			
+			<div><video src="sth.mp4" poster="sth.jpg" loop controls>Video cannot be displayed</video></div>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/gDkJIDBwofQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<button onclick="document.location='page2.html'">Click Me</button>
+
+			<ul style="list-style-type: circle; ">
+				<li>Apples</li>
+				<li>Oranges</li>
+				<li>Bananas</li>
+			</ul>
+
+			<ul id="l01">
+				<li id="li01"><a href="#home">Home</a></li>
+				<li id="li01"><a href="#news">News</a></li>
+				<li id="li01"><a href="#contact">Contact</a></li>
+				<li id="li01"><a href="#about">About</a></li>
+			</ul>
+			<ol type="i" start="10">
+				<li>Apples</li>
+				<li>Oranges
+					<ol type="A">
+						<li>item 1</li>
+					</ol>
+					</li>
+				<li>Bananas</li>
+			</ol>
+
+			<dl>
+				<dt>Apples</dt>
+				<dd>- They are red</dd>
+			</dl>
+
+			<table style="width:100%" id="t01">
+				<thead>
+					<caption><h2>List of Numbers<h2></caption>
+					<tr>
+						<th rowspan="2">num1</th>
+						<th>num2</th>
+						<th>num3</th>
+					</tr>
+				</thead>
+				<body>
+					<tr>
+						<td colspan="1">one</td>
+						<td>two</td>
+						<td>three</td>
+						<td>three 1/2</td>
+					</tr>
+				</body>
+			</table>
+			<hr/>
+			<span>span1</span>
+			<span>span2</span>
+
+			<div>div1</div>
+			<div>div2</div>
+
+			<div><input type="text" value="Enter your usename:" /></div>
+			<div><input type="password" /></div>
+			<picture>
+				<source media="(min-windth: 650px)" srcset="google.png">
+				<source media="(min-windth:465px)" srcset="test-image.jpg">
+				<img src="test-image.jpg" style="width:auto;">
+			</picture>
+			<p id="Demo"></p>
+		</main>
+
+		<footer>
+			
+		</footer>
+
+<script>
+	document.getElementById('Demo').innerHTML = "Hello hello";
+	document.getElementById('Demo').style.fontSize = "25px";
+	document.getElementById('Demo').style.color ="red";
+	document.getElementById('Demo').style.backgroundColor ="Yellow";
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+	</body>
+</html>
